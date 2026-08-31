@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vugarjs\\source\\repos\\LibraryManagment\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{317D2CD9-CAC4-44FA-AD98-1799B266983C}|LibraryManagment\\LibraryManagment.csproj|c:\\users\\vugarjs\\source\\repos\\librarymanagment\\librarymanagment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{317D2CD9-CAC4-44FA-AD98-1799B266983C}|LibraryManagment\\LibraryManagment.csproj|solutionrelative:librarymanagment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{317D2CD9-CAC4-44FA-AD98-1799B266983C}|LibraryManagment\\LibraryManagment.csproj|c:\\users\\vugarjs\\source\\repos\\librarymanagment\\librarymanagment\\enums\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{317D2CD9-CAC4-44FA-AD98-1799B266983C}|LibraryManagment\\LibraryManagment.csproj|solutionrelative:librarymanagment\\enums\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{317D2CD9-CAC4-44FA-AD98-1799B266983C}|LibraryManagment\\LibraryManagment.csproj|c:\\users\\vugarjs\\source\\repos\\librarymanagment\\librarymanagment\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{317D2CD9-CAC4-44FA-AD98-1799B266983C}|LibraryManagment\\LibraryManagment.csproj|solutionrelative:librarymanagment\\services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{317D2CD9-CAC4-44FA-AD98-1799B266983C}|LibraryManagment\\LibraryManagment.csproj|c:\\users\\vugarjs\\source\\repos\\librarymanagment\\librarymanagment\\interfaces\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{317D2CD9-CAC4-44FA-AD98-1799B266983C}|LibraryManagment\\LibraryManagment.csproj|solutionrelative:librarymanagment\\interfaces\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{317D2CD9-CAC4-44FA-AD98-1799B266983C}|LibraryManagment\\LibraryManagment.csproj|c:\\users\\vugarjs\\source\\repos\\librarymanagment\\librarymanagment\\extensions\\bookextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{317D2CD9-CAC4-44FA-AD98-1799B266983C}|LibraryManagment\\LibraryManagment.csproj|solutionrelative:librarymanagment\\extensions\\bookextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{317D2CD9-CAC4-44FA-AD98-1799B266983C}|LibraryManagment\\LibraryManagment.csproj|c:\\users\\vugarjs\\source\\repos\\librarymanagment\\librarymanagment\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{317D2CD9-CAC4-44FA-AD98-1799B266983C}|LibraryManagment\\LibraryManagment.csproj|solutionrelative:librarymanagment\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BookExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\vugarjs\\source\\repos\\LibraryManagment\\LibraryManagment\\Extensions\\BookExtensions.cs",
+              "RelativeDocumentMoniker": "LibraryManagment\\Extensions\\BookExtensions.cs",
+              "ToolTip": "C:\\Users\\vugarjs\\source\\repos\\LibraryManagment\\LibraryManagment\\Extensions\\BookExtensions.cs",
+              "RelativeToolTip": "LibraryManagment\\Extensions\\BookExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T12:24:28.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BookService.cs",
+              "DocumentMoniker": "C:\\Users\\vugarjs\\source\\repos\\LibraryManagment\\LibraryManagment\\Services\\BookService.cs",
+              "RelativeDocumentMoniker": "LibraryManagment\\Services\\BookService.cs",
+              "ToolTip": "C:\\Users\\vugarjs\\source\\repos\\LibraryManagment\\LibraryManagment\\Services\\BookService.cs",
+              "RelativeToolTip": "LibraryManagment\\Services\\BookService.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowCwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T12:22:48.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IBookService.cs",
+              "DocumentMoniker": "C:\\Users\\vugarjs\\source\\repos\\LibraryManagment\\LibraryManagment\\Interfaces\\IBookService.cs",
+              "RelativeDocumentMoniker": "LibraryManagment\\Interfaces\\IBookService.cs",
+              "ToolTip": "C:\\Users\\vugarjs\\source\\repos\\LibraryManagment\\LibraryManagment\\Interfaces\\IBookService.cs",
+              "RelativeToolTip": "LibraryManagment\\Interfaces\\IBookService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T12:20:48.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\vugarjs\\source\\repos\\LibraryManagment\\LibraryManagment\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "LibraryManagment\\Models\\Book.cs",
+              "ToolTip": "C:\\Users\\vugarjs\\source\\repos\\LibraryManagment\\LibraryManagment\\Models\\Book.cs",
+              "RelativeToolTip": "LibraryManagment\\Models\\Book.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T12:17:49.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Genre.cs",
+              "DocumentMoniker": "C:\\Users\\vugarjs\\source\\repos\\LibraryManagment\\LibraryManagment\\Enums\\Genre.cs",
+              "RelativeDocumentMoniker": "LibraryManagment\\Enums\\Genre.cs",
+              "ToolTip": "C:\\Users\\vugarjs\\source\\repos\\LibraryManagment\\LibraryManagment\\Enums\\Genre.cs",
+              "RelativeToolTip": "LibraryManagment\\Enums\\Genre.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T12:19:45.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\vugarjs\\source\\repos\\LibraryManagment\\LibraryManagment\\Program.cs",
+              "RelativeDocumentMoniker": "LibraryManagment\\Program.cs",
+              "ToolTip": "C:\\Users\\vugarjs\\source\\repos\\LibraryManagment\\LibraryManagment\\Program.cs",
+              "RelativeToolTip": "LibraryManagment\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-31T12:16:40.104Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

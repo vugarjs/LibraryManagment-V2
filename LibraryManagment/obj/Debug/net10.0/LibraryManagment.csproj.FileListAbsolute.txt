@@ -1,0 +1,14 @@
+C:\Users\vugarjs\source\repos\LibraryManagment\LibraryManagment\bin\Debug\net10.0\LibraryManagment.exe
+C:\Users\vugarjs\source\repos\LibraryManagment\LibraryManagment\bin\Debug\net10.0\LibraryManagment.deps.json
+C:\Users\vugarjs\source\repos\LibraryManagment\LibraryManagment\bin\Debug\net10.0\LibraryManagment.runtimeconfig.json
+C:\Users\vugarjs\source\repos\LibraryManagment\LibraryManagment\bin\Debug\net10.0\LibraryManagment.dll
+C:\Users\vugarjs\source\repos\LibraryManagment\LibraryManagment\bin\Debug\net10.0\LibraryManagment.pdb
+C:\Users\vugarjs\source\repos\LibraryManagment\LibraryManagment\obj\Debug\net10.0\LibraryManagment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vugarjs\source\repos\LibraryManagment\LibraryManagment\obj\Debug\net10.0\LibraryManagment.AssemblyInfoInputs.cache
+C:\Users\vugarjs\source\repos\LibraryManagment\LibraryManagment\obj\Debug\net10.0\LibraryManagment.AssemblyInfo.cs
+C:\Users\vugarjs\source\repos\LibraryManagment\LibraryManagment\obj\Debug\net10.0\LibraryManagment.csproj.CoreCompileInputs.cache
+C:\Users\vugarjs\source\repos\LibraryManagment\LibraryManagment\obj\Debug\net10.0\LibraryManagment.dll
+C:\Users\vugarjs\source\repos\LibraryManagment\LibraryManagment\obj\Debug\net10.0\refint\LibraryManagment.dll
+C:\Users\vugarjs\source\repos\LibraryManagment\LibraryManagment\obj\Debug\net10.0\LibraryManagment.pdb
+C:\Users\vugarjs\source\repos\LibraryManagment\LibraryManagment\obj\Debug\net10.0\LibraryManagment.genruntimeconfig.cache
+C:\Users\vugarjs\source\repos\LibraryManagment\LibraryManagment\obj\Debug\net10.0\ref\LibraryManagment.dll
