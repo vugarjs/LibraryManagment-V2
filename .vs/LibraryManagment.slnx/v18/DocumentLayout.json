@@ -34,8 +34,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c6f34f0d-7ae5-4f3a-be61-fe0c21ae9eb8}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 5,
@@ -46,8 +50,7 @@
               "RelativeToolTip": "LibraryManagment\\Enums\\Genre.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-31T12:19:45.483Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-31T12:19:45.483Z"
             },
             {
               "$type": "Document",
@@ -57,7 +60,7 @@
               "RelativeDocumentMoniker": "LibraryManagment\\Services\\BookService.cs",
               "ToolTip": "C:\\Users\\Vuqar\\Desktop\\v\\Tasks\\LibraryManagment-V2\\LibraryManagment\\Services\\BookService.cs",
               "RelativeToolTip": "LibraryManagment\\Services\\BookService.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAmwHIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAiwHIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-31T12:22:48.826Z",
               "EditorCaption": ""
@@ -72,8 +75,7 @@
               "RelativeToolTip": "LibraryManagment\\Extensions\\BookExtensions.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-31T12:24:28.432Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-31T12:24:28.432Z"
             },
             {
               "$type": "Document",
@@ -85,8 +87,7 @@
               "RelativeToolTip": "LibraryManagment\\Interfaces\\IBookService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-31T12:20:48.265Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-31T12:20:48.265Z"
             },
             {
               "$type": "Document",
@@ -98,8 +99,7 @@
               "RelativeToolTip": "LibraryManagment\\Models\\Book.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAiwBMAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-31T12:17:49.813Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-31T12:17:49.813Z"
             },
             {
               "$type": "Document",
@@ -111,8 +111,7 @@
               "RelativeToolTip": "LibraryManagment\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-31T12:16:40.104Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-31T12:16:40.104Z"
             }
           ]
         }
