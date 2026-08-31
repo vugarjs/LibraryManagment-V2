@@ -6,7 +6,7 @@ namespace LibraryManagment.Interfaces;
 public interface IBookService
 {
     void Add(Book book);
-    void GetById(int id);
+    void GetById(int? id);
     List<Book>? GetByGenre(Genre genre);
     Book? GetMostExpensiveBook();
     Book? GetCheapestBook();

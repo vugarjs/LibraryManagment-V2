@@ -21,11 +21,13 @@ public static class BookExtensions
     {
         if(percent < 0 || percent > 100)
         {
-            throw new ArgumentException();
+            throw new Exception("Endirim faizi 0-100 aralığında olmalıdır.");
         }
         else
         {
             double discount = book.Price *(percent / 100);
+            book.Price -= discount;
+            Console.WriteLine($"Endirim: {discount} | AZN Toplam: {book.Price} AZN");
         }
     }
 }

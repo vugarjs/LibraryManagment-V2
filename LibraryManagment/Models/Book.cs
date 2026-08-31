@@ -17,7 +17,7 @@ public class Book
         Created = DateTime.Now;
     }
     public int Id { get; set; }
-    private int idcount {  get; set; }
+    private static int idcount {  get; set; }
     public string Title { get; set; } = null!;
     public string Author { get; set; } = null!;
     public int PageCount { get; set; }

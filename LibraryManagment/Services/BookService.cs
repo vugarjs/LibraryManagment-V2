@@ -13,52 +13,85 @@ public class BookService : IBookService
     }
     public void Add(Book book)
     {
-        if(book == null)
+        if (book == null)
         {
             Console.WriteLine("Xəta: Əlavə edilən kitab boş (null) ola bilməz!");
             return;
         }
-        if (!books.Contains(book))
+        if (books.Any(x => x.Title == book.Title && x.Author == book.Author))
         {
-            books.Add(book);
-            Console.WriteLine("Kitab elave edildi.");
+            throw new ArgumentException("Bu kitab artıq mövcuddur.");
         }
-            
+        books.Add(book);
+        Console.WriteLine($"Id: {book.Id} Kitab elave edildi.");
     }
 
     public int CountByGenre(Genre genre)
     {
-       return books.Count(x => x.Genre == genre);
+        var a = books.Count(x => x.Genre == genre);
+        Console.WriteLine($"Bu janrda {a} kitab var.");
+        return a;
     }
 
     public double GetAveragePrice()
     {
-        return books.Average(x => x.Price);
+        var a = books.Average(x => x.Price);
+        Console.WriteLine($"Orta qiymet: {a}");
+        return a;
     }
 
     public List<Book>? GetByGenre(Genre genre)
     {
-        return books.FindAll(x => x.Genre == genre);
+        var a = books.FindAll(x => x.Genre == genre);
+
+        if (a.Count == 0)
+        {
+            throw new Exception("Bu janrda kitab tapılmadı.");
+        }
+
+        foreach (var book in a)
+        {
+            Console.WriteLine(book.Title);
+        }
+
+        return a;
     }
 
-    public void GetById(int id)
+    public void GetById(int? id)
     {
+
+        if (id is null)
+        {
+            throw new Exception("Id boş ola bilməz.");
+        }
         var a = books.Find(x => x.Id == id);
+        if (a is null)
+        {
+            throw new Exception("Bu id-li kitab tapılmadı.");
+        }
+
         Console.WriteLine($"Title - {a.Title}");
         Console.WriteLine($"Author - {a.Author}");
         Console.WriteLine($"Price - {a.Price}");
+
     }
 
     public void GetByPriceRange(double min, double max)
     {
+        bool founded = false;
         for (int i = 0; i < books.Count; i++)
         {
             if (books[i].Price >= min && books[i].Price < max)
             {
-                Console.WriteLine($"Title {books[i].Title}");
-                Console.WriteLine($"Price {books[i].Price}");
+                Console.WriteLine($"Title {books[i].Title}, Author {books[i].Author}, Price {books[i].Price}");
+                founded = true;
             }
         }
+        if (!founded)
+        {
+            throw new Exception("Bu qiymet aralığında kitab yoxdur.");
+        }
+
     }
 
 
@@ -69,6 +102,13 @@ public class BookService : IBookService
 
     public Book? GetMostExpensiveBook()
     {
-        return books.MaxBy((x) => x.Price);
+        var a = books.MaxBy((x) => x.Price);
+        if (a is not null)
+        {
+            Console.WriteLine($"Book id : {a.Id} | Book Title : {a.Title} | Book Author : {a.Author} | Genre : {a.Genre} | Price : {a.Price} | Stock Count : {a.StockCount} | ");
+            return a;
+        }
+        return null;
     }
 }
+
