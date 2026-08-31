@@ -75,7 +75,6 @@ public class BookService : IBookService
         Console.WriteLine($"Price - {a.Price}");
 
     }
-
     public void GetByPriceRange(double min, double max)
     {
         bool founded = false;
@@ -88,18 +87,18 @@ public class BookService : IBookService
             }
         }
         if (!founded)
-        {
             throw new Exception("Bu qiymet aralığında kitab yoxdur.");
-        }
-
     }
-
-
     public Book? GetCheapestBook()
     {
-        return books.MinBy((x) => x.Price);
+        var a = books.MinBy((x) => x.Price);
+        if (a is not null)
+        {
+            Console.WriteLine($"Book id : {a.Id} | Book Title : {a.Title} | Book Author : {a.Author} | Genre : {a.Genre} | Price : {a.Price} | Stock Count : {a.StockCount} | ");
+            return a;
+        }
+        return null;
     }
-
     public Book? GetMostExpensiveBook()
     {
         var a = books.MaxBy((x) => x.Price);

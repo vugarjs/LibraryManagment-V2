@@ -6,9 +6,7 @@ public static class BookExtensions
 {
     public static void GetShortInfo(this Book book)
     {
-        Console.WriteLine($"Title - {book.Title}");
-        Console.WriteLine($"Author - {book.Author}");
-        Console.WriteLine($"Price - {book.Price}AZN");
+        Console.WriteLine($"Title: {book.Title}, Author: {book.Author}, Price: {book.Price}AZN, Stock: {book.StockCount}");
     }
     public static bool IsInStock(this Book book)
     {
